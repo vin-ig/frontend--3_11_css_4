@@ -255,10 +255,84 @@ main {
 
 
 /* MAIN SECTION */
+.main-section {
+    padding: 20px 54px 73px 54px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/* VIDEO-ITEM */
+.video-item {
+    width: 350px;
+    border-radius: 10px;
+    background: white;
+    position: relative;
+    margin: 20px;
+}
+
+.video-item-state {
+    padding: 4px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    position: absolute;
+    top: 12px;
+    left: 12px;
+}
+
+.video-item-state.moderation {
+    background: #F7F7F7CC;
+    color: #4F4E4F;
+}
+
+.video-item-state.published {
+    background: #C6E0C3;
+    color: #027900;
+}
+
+.video-item-state.error {
+    background: #FFBCBCCC;
+    color: #DB0C0C;
+}
+
+.video-item-preview {
+    font-size: 0;
+}
+
+.video-item-description {
+    padding: 20px 27px;
+    color: #4F4E4F;
+}
+
+.video-item-description h2 {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 25px;
+    padding-bottom: 8px;
+}
+
+.video-item-description p {
+    font-size: 15px;
+    padding-bottom: 18px;
+}
+
+.video-item-actions ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.video-item-actions svg {
+    fill: #858796;
+}
+
+.video-item-actions a:hover svg {
+    fill: #467DF2;
+    cursor: pointer;
+}
 
 
 
-/* VIDEO */
 
 
 
@@ -267,7 +341,7 @@ main {
 
 
 
-fill="#858796"
+
 
 
 
