@@ -108,6 +108,7 @@ body {
 /* MAIN */
 main {
     flex-grow: 1;
+    background: #EDEEF3;
 }
 
 
@@ -174,7 +175,7 @@ main {
 
 .toggle-list ul {
     background: white;
-    box-shadow: 0px 4px 20px 0px #66666626;
+    box-shadow: 0 4px 20px 0 #66666626;
     border-radius: 10px;
     padding: 30px 20px;
     list-style: none;
@@ -187,27 +188,6 @@ main {
 .toggle-list a {
     text-decoration: none;
 }
-
-
-/* Значок поиска в самом начале
-.header-right-item input {
-    outline: none;
-    color: #4F4E4F;
-    padding: 10px 20px 11px;
-    background: #EFEFF5;
-    border-radius: 10px;
-    border: 1px solid #E2E2E2;
-}
-
-.header-right-item input::placeholder {
-    color: #B3B3B3;
-    font-size: 14px;
-    background-image: url("../assets/images/search.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    padding-left: 24px;
-}
- */
 
 .search {
     display: flex;
@@ -262,6 +242,23 @@ main {
 }
 
 
+/* TITLE */
+.title {
+    padding: 25px 40px 0 40px;
+}
+
+.title h1 {
+    font-size: 35px;
+    font-weight: bold;
+    color: #4F4E4F;
+}
+
+
+/* MAIN SECTION */
+
+
+
+/* VIDEO */
 
 
 
@@ -270,9 +267,7 @@ main {
 
 
 
-
-
-
+fill="#858796"
 
 
 
