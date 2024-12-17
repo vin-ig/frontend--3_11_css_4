@@ -244,7 +244,7 @@ main {
 
 /* TITLE */
 .title {
-    padding: 25px 40px 0 40px;
+    padding: 25px 40px 20px;
 }
 
 .title h1 {
@@ -256,7 +256,7 @@ main {
 
 /* MAIN SECTION */
 .main-section {
-    padding: 20px 54px 73px 54px;
+    padding: 0 55px 73px 55px;
     display: flex;
     flex-wrap: wrap;
 }
@@ -269,6 +269,11 @@ main {
     background: white;
     position: relative;
     margin: 20px;
+}
+
+.video-item:hover {
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
 }
 
 .video-item-state {
@@ -332,100 +337,33 @@ main {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* SUPPORT */
+.support {
+    padding: 10px 20px 20px;
+    border-radius: 10px 10px 0 0;
+    background: #467DF2;
+    display: flex;
+    position: fixed;
+    top: 400px;
+    right: -83px;
+    align-items: center;
+    transform: rotate(-90deg);
+}
+
+.support:hover {
+    cursor: pointer;
+    background: #2F54A3;
+    right: -73px;
+    transition: right 0.5s;
+}
+
+.support svg {
+    margin-right: 10px;
+    transform: rotate(90deg);
+}
+
+.support p {
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+}
